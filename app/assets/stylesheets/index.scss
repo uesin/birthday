@@ -1,1 +1,32 @@
+.index{
+background-color: #00A968;
+height: auto;
+box-sizing: border-box;
+  &__box{
+    &__slider{
+      background-color: #fff;
+      &__box{
+      padding: 0;
+      display: flex;
+      position: fixed;
 
+      
+      }
+    }
+    &__center{
+    margin: 0 auto;
+    height: 250px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    h1{
+      font-size: 40px;
+    }
+    h2{
+      padding-top: 20px;
+      font-size: 80px;
+    }
+    }
+  }
+}
